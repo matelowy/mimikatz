@@ -1,0 +1,26 @@
+Using 'mimikatz.log' for logfile : OK
+
+mimikatz # privilege::debug
+ERROR kuhl_m_privilege_simple ; RtlAdjustPrivilege (20) c0000061
+
+mimikatz # bye
+ERROR mimikatz_doLocal ; "bye" command of "standard" module not found !
+
+Module :	standard
+Full name :	Standard module
+Description :	Basic commands (does not require module name)
+
+            exit  -  Quit mimikatz
+             cls  -  Clear screen (doesn't work with redirections, like PsExec)
+          answer  -  Answer to the Ultimate Question of Life, the Universe, and Everything
+          coffee  -  Please, make me a coffee!
+           sleep  -  Sleep an amount of milliseconds
+             log  -  Log mimikatz input/output to file
+          base64  -  Switch file input/output base64
+         version  -  Display some version informations
+              cd  -  Change or display current directory
+       localtime  -  Displays system local date and time (OJ command)
+        hostname  -  Displays system local hostname
+
+mimikatz # exit
+Bye!
